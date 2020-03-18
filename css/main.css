@@ -145,7 +145,7 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  
 }
 
 header .header-divider {
@@ -155,7 +155,10 @@ header .header-divider {
 /*** Footer Styles***/
 
 footer .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
   
 
@@ -238,13 +241,9 @@ aside {
 
 .reviews {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
-}
-
-section .content-wrapper {
-
 }
 
 /********* About Page Styles*******/
@@ -258,45 +257,49 @@ section .mission {
 
 
 .mission-content {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .map {
 
 }
 
-.content-section {
+.contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-.content-wrapper {
+section div .content-wrapper {
 
 }
 
 address .contact {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 
 /******* FAQ Page Styles ********/
-
-main .faq {
+.faq {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-main .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.faq .content-wrapper {
+  
 }
 
 .faq-question {
-
-}
+  
 
 
 
