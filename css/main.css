@@ -128,6 +128,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  margin: 0;
   
 }
 
@@ -136,6 +137,7 @@ header figure {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 
 }
 
@@ -290,10 +292,11 @@ article {
 
 /********* About Page Styles*******/
 
-section .mission {
+.mission {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px 15px;
 }
 
 
@@ -303,6 +306,7 @@ section .mission {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 87%;
 }
 
 .map {
@@ -314,9 +318,13 @@ section .mission {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 87%;
+  padding: 50px 15px;
 }
 
 section div .content-wrapper {
+  
+
 
 }
 
@@ -334,14 +342,16 @@ address .contact {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 0 20px;
+  width: 90%;
 }
 
 .faq .content-wrapper {
-  
+  padding: 55px 0;
 }
 
 .faq-question {
-  
+  width: ;
 }
 
 /* ==========================================================================
