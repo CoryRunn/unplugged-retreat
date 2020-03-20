@@ -523,6 +523,62 @@ aside {
   /**Desktop styles here**/
 @media only screen and (min-width: 1200px) {
   
+/********************************************
+*****************Home Page*******************/
+
+/**General styles**/
+
+.content-wrapper {
+  max-width: 960px;
+}
+
+/**Hero Area**/
+
+.hero-area h1 {
+  width: 60%;
+}
+
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+/**Features**/
+
+.features h2 {
+  width: 90%;
+}
+
+.features article {
+  flex-basis: 33%;
+}
+
+/**Reviews**/
+
+.reviews article div {
+  width: 42%;
+}
+
+/****************************************************
+*******************About Page************************/
+
+.mission h1,
+.contact-section .content-wrapper h1 {
+  width: 94%;
+}
+
+/**************************************************
+**********************FAQ Page*********************/
+
+.faq h2 {
+  width: 100%;
+}
+
+
 }
 
 
