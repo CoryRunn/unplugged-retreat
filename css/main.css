@@ -108,6 +108,7 @@ textarea {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: left;
+    color: #e2e3ed;
   }
   
   ul, 
@@ -125,6 +126,7 @@ textarea {
   h3,
   h4 {
     font-family: 'Poppins', sans-serif;
+    font-weight: 100;
   }
   
   h1 {
@@ -167,6 +169,7 @@ footer {
   align-items: center;
   flex-flow: row wrap;
   padding: 0 20px;
+  background-color: #202322;
 }
 
 /*** Header Styles***/
@@ -180,6 +183,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+  
 }
 
 .header-divider {
@@ -235,6 +239,7 @@ footer .social-icons p {
 
 footer .copyright {
   margin: 20px 0;
+  text-align: center;
 }
 
 /***** Mobile Styles - Homepage *****/
@@ -245,6 +250,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 /*Aside*/
@@ -254,6 +260,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 
@@ -283,6 +290,7 @@ aside {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
 /**Reviews Section***/
@@ -291,6 +299,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -309,12 +318,15 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
+
 .contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-content p{
@@ -327,6 +339,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
