@@ -130,11 +130,11 @@ textarea {
   }
   
   h1 {
-    font-size: 3.75em;
+    font-size: 2.25em;
   }
 
   h2 {
-    font-size: 2.25em;
+    font-size: 1.875em;
   }
 
   h3,
@@ -148,7 +148,7 @@ textarea {
   }
   
   figure {
-    color: #ffffff;
+    margin: 0;
   }
   
   address {
@@ -159,6 +159,11 @@ textarea {
     width: 90%;
     margin: 50px 0;
 }
+
+  img {
+    width: 100%;
+    background-color: #202322;
+  }
 
    /***** Base Header & Footer Styles *****/
 
@@ -183,7 +188,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
-  
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -198,6 +210,7 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  font-size: 1.125em;
 }
 
 header nav ul {
@@ -250,7 +263,9 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: #527158;
+  background: url('../img/hero.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 550px;
 }
 
 /*Aside*/
@@ -270,6 +285,8 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/campfire.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -300,6 +317,14 @@ aside {
   justify-content: center;
   flex-flow: row wrap;
   background-color: #2a423a;
+}
+
+.reviews img {
+  width: 100%;
+}
+
+.reviews figure {
+  margin: 0;
 }
 
 .reviews h2 {
@@ -472,6 +497,14 @@ aside {
     justify-content: space-between;
   }
 
+  header figure {
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
   header nav {
     width: 20%;
   }
@@ -516,9 +549,18 @@ aside {
 
   /*Reviews*/
 
+.reviews {
+  padding-bottom: 100px;
+}
+
+  .reviews figure {
+    width: 40%;
+  }
+
   .reviews article {
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
 
   .reviews article div {
