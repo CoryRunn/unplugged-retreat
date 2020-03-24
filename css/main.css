@@ -232,6 +232,7 @@ footer p {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  text-align: center;
 }
   
 footer .contact {
@@ -245,15 +246,26 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons i {
+  font-size: 1.125em
 }
 
 footer .copyright {
   margin: 20px 0;
   text-align: center;
 }
+
+
+
 
 /***** Mobile Styles - Homepage *****/
 
@@ -536,6 +548,13 @@ aside {
 
   .header-divider {
     display: none;
+  }
+
+  /***Footer***/
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
   
   /*Hero area*/
