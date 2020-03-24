@@ -628,6 +628,10 @@ aside {
   align-items: flex-start;
 }
 
+.map figure {
+  padding-bottom: 72%;
+}
+
 /********************************************
 ******************FAQ Page*******************/
 
@@ -695,6 +699,10 @@ aside .content-wrapper .form {
 .mission h1,
 .contact-section .content-wrapper h1 {
   width: 94%;
+}
+
+.map figure {
+  padding-bottom: 37%;
 }
 
 /**************************************************
