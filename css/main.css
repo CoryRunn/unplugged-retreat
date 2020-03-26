@@ -114,6 +114,8 @@ textarea {
   ul, 
   ol {
     list-style-type: none;
+    margin:0;
+    padding: 0;
   }
   
   a {
@@ -139,11 +141,12 @@ textarea {
 
   h3,
   h4 {
-    font-size: 1.875em;
+    font-size: 1.125em;
+    font-weight: 500;
   }
 
   p {
-    font-size: 1.125em;
+    font-size: 0.875em;
     line-height: 1.5em;
   }
   
@@ -211,12 +214,13 @@ header nav {
   flex-flow: row wrap;
   width: 60%;
   font-size: 1.125em;
+  font-weight: 700;
 }
 
 header nav ul {
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  width: 100%;
 }
 
 /*** Footer Styles***/
@@ -277,7 +281,14 @@ footer .copyright {
   flex-flow: row wrap;
   background: url('../img/hero.jpg') center no-repeat #333;
   background-size: cover;
-  min-height: 550px;
+  min-height: 500px;
+}
+
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 /*Aside*/
@@ -288,6 +299,28 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
@@ -324,7 +357,7 @@ aside {
 
 .features i {
 	font-size: 3.75em;
-        margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 /**Reviews Section***/
@@ -336,21 +369,20 @@ aside {
   background-color: #2a423a;
 }
 
-.reviews img {
-  width: 100%;
-}
 
 .reviews figure {
   margin: 0;
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
+  line-height: 1;
+  width: 85%;
 }
 
 .reviews h3 {
-  width: 55%;
-  margin: 20px 0;
+  width: 75%;
+  margin: 0;
 }
 
 /********* About Page Styles*******/
@@ -514,7 +546,7 @@ aside {
   /**General styles**/
 
   .content-wrapper {
-    width: 640px;
+    max-width: 640px;
     margin: 100px 0;
   }
 
@@ -558,6 +590,10 @@ aside {
   }
   
   /*Hero area*/
+
+  .hero-area {
+    min-height: 600px;
+  }
   
   /*Aside*/
 
@@ -589,18 +625,13 @@ aside {
 
   /*Reviews*/
 
-.reviews {
-  padding-bottom: 100px;
-}
-
   .reviews figure {
-    width: 40%;
+    width: 50%;
   }
 
   .reviews article {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
   }
 
   .reviews article div {
@@ -686,10 +717,15 @@ aside {
   max-width: 960px;
 }
 
+h3, h4 {
+  font-size: 1.875em;
+}
+
 /**Hero Area**/
 
 .hero-area h1 {
-  width: 60%;
+  font-size: 3.23em;
+  width: 80%;
 }
 
 aside .content-wrapper {
