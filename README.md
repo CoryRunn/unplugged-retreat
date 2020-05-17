@@ -1,0 +1,1 @@
+This was a Skillcrush.com course assignment. I was given a Photoshop design and asked to build this multiple page website from scratch. Flexbox was used to acheive the layout, and the project had to be responsive. This was also my first time using and incorporating <iframe> to include a Google Map.
